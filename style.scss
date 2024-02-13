@@ -9,6 +9,7 @@
 }
 
 @import "partials/colors";
+@import "partials/header";
 
 body{
     font-family: 'Sora', sans-serif;
@@ -18,3 +19,18 @@ body{
 
     background-color: $primary-normal;
 }
+
+button{
+    font-family: 'Sora', sans-serif;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
